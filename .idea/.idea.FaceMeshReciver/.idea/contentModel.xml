@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="BaseVertices.txt" t="Include" />
+        <e p="Editor" t="Include">
+          <e p="ExportScene.cs" t="Include" />
+        </e>
+        <e p="FaceMeshGenerater.cs" t="Include" />
+        <e p="indeces.txt" t="Include" />
+        <e p="LogData.txt" t="Include" />
+        <e p="MeshInfo.cs" t="Include" />
+        <e p="OscSimpl" t="Include">
+          <e p="Base" t="Include">
+            <e p="ArgumentDataTypes" t="Include">
+              <e p="OscImpulse.cs" t="Include" />
+              <e p="OscMidiMessage.cs" t="Include" />
+              <e p="OscNull.cs" t="Include" />
+              <e p="OscTimeTag.cs" t="Include" />
+            </e>
+            <e p="Enums" t="Include">
+              <e p="OscArgType.cs" t="Include" />
+              <e p="OscReceiveMode.cs" t="Include" />
+              <e p="OscRemoteStatus.cs" t="Include" />
+              <e p="OscSendMode.cs" t="Include" />
+            </e>
+            <e p="Internal" t="Include">
+              <e p="CachedIpEndPoint.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="OscEditorUI.cs" t="Include" />
+                <e p="OscInInspector.cs" t="Include" />
+                <e p="OscMappingDrawer.cs" t="Include" />
+                <e p="OscOutInspector.cs" t="Include" />
+              </e>
+              <e p="Events" t="Include">
+                <e p="OscBlobEvent.cs" t="Include" />
+                <e p="OscBoolEvent.cs" t="Include" />
+                <e p="OscCharEvent.cs" t="Include" />
+                <e p="OscColorEvent.cs" t="Include" />
+                <e p="OscDoubleEvent.cs" t="Include" />
+                <e p="OscFloatEvent.cs" t="Include" />
+                <e p="OscIntEvent.cs" t="Include" />
+                <e p="OscLongEvent.cs" t="Include" />
+                <e p="OscMessageEvent.cs" t="Include" />
+                <e p="OscMidiEvent.cs" t="Include" />
+                <e p="OscStringEvent.cs" t="Include" />
+                <e p="OscTimeTagEvent.cs" t="Include" />
+              </e>
+              <e p="ExposedUnityEvent" t="Include">
+                <e p="Base" t="Include">
+                  <e p="UnityEventReflection.cs" t="Include" />
+                </e>
+                <e p="Example" t="Include">
+                  <e p="ExposedUnityEventExample.cs" t="Include" />
+                </e>
+                <e p="ExposedUnityEvent.cs" t="Include" />
+                <e p="ExposedUnityEvent_1.cs" t="Include" />
+                <e p="ExposedUnityEvent_2.cs" t="Include" />
+                <e p="ExposedUnityEvent_3.cs" t="Include" />
+                <e p="ExposedUnityEvent_4.cs" t="Include" />
+                <e p="Tests" t="Include">
+                  <e p="ExposedUnityEventPerformanceTest.cs" t="Include" />
+                </e>
+              </e>
+              <e p="OscAddress.cs" t="Include" />
+              <e p="OscArgInfo.cs" t="Include" />
+              <e p="OscConst.cs" t="Include" />
+              <e p="OscConverter.cs" t="Include" />
+              <e p="OscData" t="Include">
+                <e p="BlobOscData.cs" t="Include" />
+                <e p="EightByteOscData.cs" t="Include" />
+                <e p="FourByteOscData.cs" t="Include" />
+                <e p="SixteenByteOscData.cs" t="Include" />
+                <e p="SixtyfourByteOscData.cs" t="Include" />
+                <e p="StringOscData.cs" t="Include" />
+                <e p="TwelveByteOscData.cs" t="Include" />
+              </e>
+              <e p="OscDebug.cs" t="Include" />
+              <e p="OscHelper.cs" t="Include" />
+              <e p="OscMapping.cs" t="Include" />
+              <e p="OscMessageType.cs" t="Include" />
+              <e p="OscMonoBase.cs" t="Include" />
+              <e p="OscPacket.cs" t="Include" />
+              <e p="OscStringHash.cs" t="Include" />
+              <e p="SerializedOscMessageBuffer.cs" t="Include" />
+              <e p="UdpReceiver.cs" t="Include" />
+            </e>
+            <e p="OscBundle.cs" t="Include" />
+            <e p="OscMessage.cs" t="Include" />
+            <e p="OscPool.cs" t="Include" />
+          </e>
+          <e p="Documents" t="Include">
+            <e p="Versions.txt" t="Include" />
+          </e>
+          <e p="Examples" t="Include">
+            <e p="01 GettingStarted" t="Include">
+              <e p="GettingStartedReceiving.cs" t="Include" />
+              <e p="GettingStartedSending.cs" t="Include" />
+            </e>
+            <e p="02 ArgumentTypes" t="Include">
+              <e p="ArgumentTypeTest.cs" t="Include" />
+            </e>
+            <e p="03 RuntimeUI" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="TestMessageGenerator.cs" t="Include" />
+              </e>
+            </e>
+            <e p="04 Bundles" t="Include">
+              <e p="UsingBundles.cs" t="Include" />
+            </e>
+            <e p="05 TimeTags" t="Include">
+              <e p="UsingTimeTags.cs" t="Include" />
+            </e>
+            <e p="06 UnicastBroadcastMulticast" t="Include">
+              <e p="UsingUnicastBroadcastMulticast.cs" t="Include" />
+            </e>
+            <e p="07 Blobs" t="Include">
+              <e p="FloatListBlob.cs" t="Include" />
+              <e p="IntListBlob.cs" t="Include" />
+              <e p="Matrix4x4Blob.cs" t="Include" />
+              <e p="QuaternionBlob.cs" t="Include" />
+              <e p="UTF8StringBlob.cs" t="Include" />
+              <e p="Vector2Blob.cs" t="Include" />
+              <e p="Vector3Blob.cs" t="Include" />
+              <e p="Vector4Blob.cs" t="Include" />
+            </e>
+            <e p="08 Optimisations" t="Include">
+              <e p="Optimisations.cs" t="Include" />
+            </e>
+          </e>
+          <e p="OscIn.cs" t="Include" />
+          <e p="OscOut.cs" t="Include" />
+          <e p="Xtras" t="Include">
+            <e p="RuntimeUI" t="Include">
+              <e p="OscInRuntimeUI.cs" t="Include" />
+              <e p="OscOutRuntimeUI.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ProCore" t="Include">
+          <e p="ProGrids" t="Include">
+            <e p="About" t="Include">
+              <e p="changelog.txt" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="pg_AboutWindow.cs" t="Include" />
+              </e>
+              <e p="pc_AboutEntry_ProGrids.txt" t="Include" />
+            </e>
+            <e p="Classes" t="Include">
+              <e p="pg_Constant.cs" t="Include" />
+              <e p="pg_Enum.cs" t="Include" />
+              <e p="pg_IconUtility.cs" t="Include" />
+              <e p="pg_IgnoreSnapAttribute.cs" t="Include" />
+              <e p="pg_SceneMeshRender.cs" t="Include" />
+              <e p="pg_Util.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="pg_Editor.cs" t="Include" />
+              <e p="pg_GridRenderer.cs" t="Include" />
+              <e p="pg_ParameterWindow.cs" t="Include" />
+              <e p="pg_Preferences.cs" t="Include" />
+              <e p="pg_ToggleContent.cs" t="Include" />
+            </e>
+            <e p="MonoBehaviour" t="Include">
+              <e p="pg_IgnoreSnap.cs" t="Include" />
+            </e>
+            <e p="Shader" t="Include">
+              <e p="pg_GridShader.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="FaceMeshReciver.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_FaceMeshReciver.-527525365.00" t="ExcludeRecursive" />
+  </component>
+</project>
